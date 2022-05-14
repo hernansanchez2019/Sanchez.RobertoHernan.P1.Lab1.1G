@@ -1,0 +1,53 @@
+# depslib dependency file v1.0
+1652489291 source:c:\users\hernan\desktop\abm parcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	"validaciones.h"
+	"tipo.h"
+	"colores.h"
+	"servicios.h"
+	"bicicletas.h"
+
+1652480313 c:\users\hernan\desktop\abm parcial\validaciones.h
+
+1652480327 source:c:\users\hernan\desktop\abm parcial\validaciones.c
+	<string.h>
+	<ctype.h>
+	"validaciones.h"
+	<stdio.h>
+	<stdlib.h>
+
+1652485472 c:\users\hernan\desktop\abm parcial\tipo.h
+
+1652485549 source:c:\users\hernan\desktop\abm parcial\tipo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"tipo.h"
+
+1652486276 source:c:\users\hernan\desktop\abm parcial\colores.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"colores.h"
+
+1652485472 c:\users\hernan\desktop\abm parcial\colores.h
+
+1652483270 c:\users\hernan\desktop\abm parcial\servicios.h
+
+1652483293 source:c:\users\hernan\desktop\abm parcial\servicios.c
+	<stdio.h>
+	<stdlib.h>
+	"servicios.h"
+
+1652489975 c:\users\hernan\desktop\abm parcial\bicicletas.h
+	"tipo.h"
+	"colores.h"
+
+1652489424 source:c:\users\hernan\desktop\abm parcial\bicicletas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"bicicletas.h"
+	"validaciones.h"
+
