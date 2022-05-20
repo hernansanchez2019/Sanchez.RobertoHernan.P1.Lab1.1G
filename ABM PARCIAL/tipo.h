@@ -6,7 +6,6 @@ typedef struct
 {
     int id; //(comienza en 1000)
     char descripcion[20]; // (máx 20 caracteres)
-    int rodado;
 
 } eTipo; // HARDDCODEO
 
@@ -36,4 +35,26 @@ int listarTipos(eTipo tipos[],int tamTipo);
  *
  */
 int cargarDescripcionTipo(eTipo tipos[], int tamTipo, int id, char desc[]);
+
+/** \brief VERIFICAMOS QUE EL TIPO DE BICICLETA QUE SE INGRESE, EXISTA
+ *
+ * \param vec[] eBicicleta
+ * \param tam int
+ * \param id int
+ * \return int
+ *
+ */
+int validarTipoBicicleta(eTipo vec[], int tam, int id);
+
+
+/** \brief Buscamos el tipo de bicicleta
+ *
+ * \param vec[] eTipo
+ * \param tam int
+ * \param id int
+ * \param pIndex int*
+ * \return int
+ *
+ */
+int buscarTipoBici(eTipo vec[], int tam, int id, int* pIndex);
 

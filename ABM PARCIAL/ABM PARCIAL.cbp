@@ -31,9 +31,41 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="bicicletas.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="bicicletas.h" />
+		<Unit filename="colores.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="colores.h" />
+		<Unit filename="fecha.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fecha.h" />
+		<Unit filename="informesYmenu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="informesYmenu.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="servicios.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="servicios.h" />
+		<Unit filename="tipo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="tipo.h" />
+		<Unit filename="trabajo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="trabajo.h" />
+		<Unit filename="validaciones.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="validaciones.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

@@ -1,6 +1,7 @@
 #ifndef COLORES_H_INCLUDED
 #define COLORES_H_INCLUDED
 
+
 typedef struct
 {
     int id; //(comienza en 5000)
@@ -31,3 +32,27 @@ int listarColores(eColor colores[],int tamCol);
  *
  */
 int cargarDescripcionColor(eColor colores[], int tamC, int id, char desc[]);
+
+
+
+/** \brief validamos los colores a la hora de realizar un alta
+ *
+ * \param vec[] eColor
+ * \param tam int
+ * \param id int
+ * \return int
+ *
+ */
+int validarColores(eColor vec[], int tam, int id);
+
+
+/** \brief buscamos los colores
+ *
+ * \param
+ * \param
+ * \return
+ *
+ */
+
+int buscarColores(eColor vec[], int tam, int id, int* pIndex);
+

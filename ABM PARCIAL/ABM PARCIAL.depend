@@ -1,8 +1,11 @@
 # depslib dependency file v1.0
-1652489291 source:c:\users\hernan\desktop\abm parcial\main.c
+1653090615 source:c:\users\hernan\desktop\abm parcial\main.c
 	<stdio.h>
 	<stdlib.h>
+	"informesYmenu.h"
 	"validaciones.h"
+	"fecha.h"
+	"trabajo.h"
 	"tipo.h"
 	"colores.h"
 	"servicios.h"
@@ -17,37 +20,83 @@
 	<stdio.h>
 	<stdlib.h>
 
-1652485472 c:\users\hernan\desktop\abm parcial\tipo.h
+1652843880 c:\users\hernan\desktop\abm parcial\tipo.h
 
-1652485549 source:c:\users\hernan\desktop\abm parcial\tipo.c
+1652744913 source:c:\users\hernan\desktop\abm parcial\tipo.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"tipo.h"
 
-1652486276 source:c:\users\hernan\desktop\abm parcial\colores.c
+1653063894 source:c:\users\hernan\desktop\abm parcial\colores.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"colores.h"
 
-1652485472 c:\users\hernan\desktop\abm parcial\colores.h
+1653063894 c:\users\hernan\desktop\abm parcial\colores.h
 
-1652483270 c:\users\hernan\desktop\abm parcial\servicios.h
+1653089745 c:\users\hernan\desktop\abm parcial\servicios.h
+	"bicicletas.h"
+	"tipo.h"
+	"colores.h"
 
-1652483293 source:c:\users\hernan\desktop\abm parcial\servicios.c
+1653089423 source:c:\users\hernan\desktop\abm parcial\servicios.c
 	<stdio.h>
 	<stdlib.h>
+	<string.h>
 	"servicios.h"
+	"trabajo.h"
+	"bicicletas.h"
+	"validaciones.h"
 
-1652489975 c:\users\hernan\desktop\abm parcial\bicicletas.h
+1653089629 c:\users\hernan\desktop\abm parcial\bicicletas.h
 	"tipo.h"
 	"colores.h"
 
-1652489424 source:c:\users\hernan\desktop\abm parcial\bicicletas.c
+1653089423 source:c:\users\hernan\desktop\abm parcial\bicicletas.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"bicicletas.h"
 	"validaciones.h"
+	"servicios.h"
+	"trabajo.h"
+
+1652829920 source:c:\users\hernan\desktop\abm parcial\fecha.c
+	"fecha.h"
+
+1652829920 c:\users\hernan\desktop\abm parcial\fecha.h
+
+1653089699 c:\users\hernan\desktop\abm parcial\trabajo.h
+	"fecha.h"
+	"bicicletas.h"
+	"servicios.h"
+
+1653088326 source:c:\users\hernan\desktop\abm parcial\trabajo.c
+	<stdio.h>
+	<stdlib.h>
+	"trabajo.h"
+	"validaciones.h"
+
+1653089514 source:c:\users\hernan\desktop\abm parcial\informesymenu.c
+	<stdio.h>
+	<stdlib.h>
+	"informesYmenu.h"
+	"validaciones.h"
+	"tipo.h"
+	"colores.h"
+	"servicios.h"
+	"bicicletas.h"
+
+1653089839 c:\users\hernan\desktop\abm parcial\informesymenu.h
+	<stdio.h>
+	<stdlib.h>
+	"informesYmenu.h"
+	"validaciones.h"
+	"tipo.h"
+	"colores.h"
+	"servicios.h"
+	"bicicletas.h"
+	"trabajo.h"
 

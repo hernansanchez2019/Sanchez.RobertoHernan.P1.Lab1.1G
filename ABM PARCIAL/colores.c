@@ -4,6 +4,7 @@
 #include "colores.h"
 
 
+
 int listarColores(eColor colores[],int tamCol)
 {
     int todoOk=0;
@@ -46,3 +47,41 @@ int cargarDescripcionColor(eColor colores[], int tamC, int id, char desc[])
     }
     return todoOk;
 }
+
+
+int validarColores(eColor vec[], int tam, int id)
+{
+ int esValido = 0;
+ int indice;
+
+ if (buscarColores(vec, tam, id, &indice) )
+
+    {
+    if(indice != -1){
+        esValido = 1;
+    }
+ }
+ return esValido;
+}
+
+int buscarColores(eColor vec[], int tam, int id, int* pIndex)
+{
+    int todoOk = 0;
+    if( vec != NULL && pIndex != NULL && tam > 0 )
+    {
+        *pIndex = -1;
+        for(int i=0; i < tam; i++)
+        {
+            if(vec[i].id == id)
+            {
+                *pIndex = i;
+                break;
+            }
+        }
+        todoOk = 1;
+    }
+    return todoOk;
+}
+
+
+
